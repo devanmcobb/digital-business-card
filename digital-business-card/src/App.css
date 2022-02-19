@@ -1,27 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* common styles */
 
 html {
 	font-size: 62.5%;
 }
+
 .card {
 	background: #23252c;
-	height: 868px;
-	width: 550px;
+	height: 75rem;
+	width: 54.9rem;
 	color: #fff;
-	margin: 60px auto;
+	margin: 6rem auto;
+	padding: 4.4rem 0;
 	font-size: 1.2rem;
+	font-family: 'Inter', sans-serif;
+}
+
+.card-border {
+	width: 31.7rem;
+	height: 70.5rem;
+	margin: auto;
+	background: #1a1b21;
+	border-top-left-radius: 1.5rem;
+	border-top-right-radius: 1.5rem;
+}
+
+.btn {
+	padding: .9rem 1.3rem .9rem 1.1rem;
+	border: none;
+	border-radius: .6rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+	box-shadow: 0 .1rem .2rem rgba(0, 0, 0 .5);
+}
+
+.btn-img {
+	width: 2.4rem;
+	margin-right: 1.2rem;
+}
+
+p {
+	font-size: 1rem;
 }
 
 /* end of common styles */
+
+/* information section styles */
+
+.info {
+	text-align: center;
+}
+
 .nav-img {
 	width: 317px;
 	height: 317px;
 	object-fit: cover;
-}
-
-.info {
-	padding: 4.4rem 11.6rem 1rem 11.6rem;
-	text-align: center;
+	border-top-left-radius: 1.5rem;
+	border-top-right-radius: 1.5rem;
 }
 
 .name {
@@ -31,22 +67,41 @@ html {
 	margin: 1rem;
 }
 
+.title {
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #f3bf99;
+}
+
 .email-btn {
 	margin-right: 1.7rem;
+	background: #fff;
+	font-size: 1.4rem;
+	font-weight: 500;
+	border: 1px solid #d1d5db;
 }
+
+.linkedin-btn {
+	background: #5093e2;
+	color: #fff;
+}
+
+/* end of information section styles */
 
 /* about section styles */
 
 .about {
 	width: 24.7rem;
 	text-align: justify;
-	padding: 0 15.2rem;
+	padding: 0 3.5rem;
+	margin: 1rem 0;
 }
 
 .about-title {
 	font-size: 1.6rem;
-	margin-bottom: 0;
+	margin: 0;
 }
+
 /* end of about section styles */
 
 /* interests section styles */
@@ -54,7 +109,8 @@ html {
 .interests {
 	width: 24.7rem;
 	text-align: justify;
-	padding: 0 15.2rem;
+	padding: 0 3.5rem;
+	margin-bottom: 5.1rem;
 }
 
 .interests-title {
@@ -62,8 +118,21 @@ html {
 	margin: 0;
 }
 
-.interests-paragraph {
-	margin-bottom: 5.5rem;
+/* end of interests section styles */
+
+/* footer section styles */
+.footer {
+	display: flex;
+	background: #161619;
+	width: 31.7rem;
+	justify-content: center;
+	align-items: center;
+	height: 6.45rem;
+	border-bottom-left-radius: 1.5rem;
+	border-bottom-right-radius: 1.5rem;
+}
+.icon {
+	padding: 0 1.5rem;
 }
 
-/* end of interests section styles */
+/* end of footer section styles */

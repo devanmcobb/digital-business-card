@@ -7,10 +7,12 @@ import Interests from './components/Interests';
 function App() {
 	return (
 		<div className="card">
-			<Info />
-			<About />
-			<Interests />
-			<Footer />
+			<div className="card-border">
+				<Info />
+				<About />
+				<Interests />
+				<Footer />
+			</div>
 		</div>
 	);
 }
